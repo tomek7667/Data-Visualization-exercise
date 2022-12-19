@@ -1,0 +1,1 @@
+['Ma³opolskie', 'Œl¹skie', 'Wielkopolskie', 'Zachodniopomorskie', 'Lubuskie', 'Dolnoœl¹skie', 'Opolskie', 'Kujawsko-pomorskie', 'Warmiñsko-mazurskie', 'Pomorskie', '£ódzkie', 'Œwiêtokrzyskie', 'Lubelskie', 'Podkarpackie', 'Podlaskie', 'Mazowiecki']

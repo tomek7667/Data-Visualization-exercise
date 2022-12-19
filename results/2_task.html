@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b = L.map(
+                "map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b",
+                {
+                    center: [52.237049, 21.017532],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_27887fbfd169e2a44eba0f02e18f5c0d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+            var circle_6fb559c1a29d416c0dd1cbed5ffb4599 = L.circle(
+                [49.790952, 20.3793521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4600.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_0c265b0bc4419ed03dc8149426358ea1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4050b14957c1c0716c2706c76d52afb0 = $(`<div id="html_4050b14957c1c0716c2706c76d52afb0" style="width: 100.0%; height: 100.0%;">Małopolskie has 4.6% unemployment</div>`)[0];
+                popup_0c265b0bc4419ed03dc8149426358ea1.setContent(html_4050b14957c1c0716c2706c76d52afb0);
+            
+        
+
+        circle_6fb559c1a29d416c0dd1cbed5ffb4599.bindPopup(popup_0c265b0bc4419ed03dc8149426358ea1)
+        ;
+
+        
+    
+    
+            var circle_7c8417049a52bede7609ad9927927cb2 = L.circle(
+                [50.5687422, 19.2343995],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4400.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_636a5c2753fd7579985ca8e12353e97e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a75d585f1aac695fc276a97484fc269 = $(`<div id="html_4a75d585f1aac695fc276a97484fc269" style="width: 100.0%; height: 100.0%;">Śląskie has 4.4% unemployment</div>`)[0];
+                popup_636a5c2753fd7579985ca8e12353e97e.setContent(html_4a75d585f1aac695fc276a97484fc269);
+            
+        
+
+        circle_7c8417049a52bede7609ad9927927cb2.bindPopup(popup_636a5c2753fd7579985ca8e12353e97e)
+        ;
+
+        
+    
+    
+            var circle_9752ac375488d03d680f445d7f474a07 = L.circle(
+                [52.1458506, 17.397672],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3200.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_abd0f892884624893f6fe58230e2648a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f65b5c8198074d6575140ea8b85ed1d = $(`<div id="html_3f65b5c8198074d6575140ea8b85ed1d" style="width: 100.0%; height: 100.0%;">Wielkopolskie has 3.2% unemployment</div>`)[0];
+                popup_abd0f892884624893f6fe58230e2648a.setContent(html_3f65b5c8198074d6575140ea8b85ed1d);
+            
+        
+
+        circle_9752ac375488d03d680f445d7f474a07.bindPopup(popup_abd0f892884624893f6fe58230e2648a)
+        ;
+
+        
+    
+    
+            var circle_4dba584e0aada3812436e919d6df350b = L.circle(
+                [53.5450793, 15.5661586],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7100.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_1d8d48f18d36c3f20c08ce6d6685a4ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e33c5268fd4575c8636f9c18253f675 = $(`<div id="html_3e33c5268fd4575c8636f9c18253f675" style="width: 100.0%; height: 100.0%;">Zachodniopomorskie has 7.1% unemployment</div>`)[0];
+                popup_1d8d48f18d36c3f20c08ce6d6685a4ba.setContent(html_3e33c5268fd4575c8636f9c18253f675);
+            
+        
+
+        circle_4dba584e0aada3812436e919d6df350b.bindPopup(popup_1d8d48f18d36c3f20c08ce6d6685a4ba)
+        ;
+
+        
+    
+    
+            var circle_b7f2d2ba6ea97f4776d38bed86031193 = L.circle(
+                [52.1001754, 15.3605075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5000.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_a5bf433043ee03465bfd337d8cfde7b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21982b7eeca4e51ba395b6b7dca7868f = $(`<div id="html_21982b7eeca4e51ba395b6b7dca7868f" style="width: 100.0%; height: 100.0%;">Lubuskie has 5.0% unemployment</div>`)[0];
+                popup_a5bf433043ee03465bfd337d8cfde7b3.setContent(html_21982b7eeca4e51ba395b6b7dca7868f);
+            
+        
+
+        circle_b7f2d2ba6ea97f4776d38bed86031193.bindPopup(popup_a5bf433043ee03465bfd337d8cfde7b3)
+        ;
+
+        
+    
+    
+            var circle_cc63a552d8491c36e038c3947e7a6fea = L.circle(
+                [50.95083795, 16.36124870197179],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4900.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_97b00ee8001ec945240f768c06f7bddd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83ebf933e8d8efcc2ac60ff1ddf80762 = $(`<div id="html_83ebf933e8d8efcc2ac60ff1ddf80762" style="width: 100.0%; height: 100.0%;">Dolnośląskie has 4.9% unemployment</div>`)[0];
+                popup_97b00ee8001ec945240f768c06f7bddd.setContent(html_83ebf933e8d8efcc2ac60ff1ddf80762);
+            
+        
+
+        circle_cc63a552d8491c36e038c3947e7a6fea.bindPopup(popup_97b00ee8001ec945240f768c06f7bddd)
+        ;
+
+        
+    
+    
+            var circle_b3c90be2363c89ad189006b0c23d6971 = L.circle(
+                [50.8918612, 17.9321175],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6000.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_deeea7e27b7f973f228c40872521014a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_842504593666675492ab647234ca8cc7 = $(`<div id="html_842504593666675492ab647234ca8cc7" style="width: 100.0%; height: 100.0%;">Opolskie has 6.0% unemployment</div>`)[0];
+                popup_deeea7e27b7f973f228c40872521014a.setContent(html_842504593666675492ab647234ca8cc7);
+            
+        
+
+        circle_b3c90be2363c89ad189006b0c23d6971.bindPopup(popup_deeea7e27b7f973f228c40872521014a)
+        ;
+
+        
+    
+    
+            var circle_573b7b442f4444fdb269fbf788c0b1d4 = L.circle(
+                [53.3220016, 18.3392939],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7700.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_410b97982bdc0e3187588c637ec6987c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2efd04d190d60cf3345030b53c0bc2fd = $(`<div id="html_2efd04d190d60cf3345030b53c0bc2fd" style="width: 100.0%; height: 100.0%;">Kujawsko-pomorskie has 7.7% unemployment</div>`)[0];
+                popup_410b97982bdc0e3187588c637ec6987c.setContent(html_2efd04d190d60cf3345030b53c0bc2fd);
+            
+        
+
+        circle_573b7b442f4444fdb269fbf788c0b1d4.bindPopup(popup_410b97982bdc0e3187588c637ec6987c)
+        ;
+
+        
+    
+    
+            var circle_4b9cf1c028a45794567119b4aa7a41b3 = L.circle(
+                [53.9311892, 21.1260808],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8600.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_0fc8b7fea53227d717f34b13014c70b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f67438422314902d7d049d2f3288b47 = $(`<div id="html_0f67438422314902d7d049d2f3288b47" style="width: 100.0%; height: 100.0%;">Warmińsko-mazurskie has 8.6% unemployment</div>`)[0];
+                popup_0fc8b7fea53227d717f34b13014c70b2.setContent(html_0f67438422314902d7d049d2f3288b47);
+            
+        
+
+        circle_4b9cf1c028a45794567119b4aa7a41b3.bindPopup(popup_0fc8b7fea53227d717f34b13014c70b2)
+        ;
+
+        
+    
+    
+            var circle_10df7c6c6b286cedd79ba09a4fd2795f = L.circle(
+                [54.24556, 18.1099],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5300.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_2e526834928a5cbef43b19b576c11a3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_132d2eb0740c90a42b0a00cb827e00b1 = $(`<div id="html_132d2eb0740c90a42b0a00cb827e00b1" style="width: 100.0%; height: 100.0%;">Pomorskie has 5.3% unemployment</div>`)[0];
+                popup_2e526834928a5cbef43b19b576c11a3d.setContent(html_132d2eb0740c90a42b0a00cb827e00b1);
+            
+        
+
+        circle_10df7c6c6b286cedd79ba09a4fd2795f.bindPopup(popup_2e526834928a5cbef43b19b576c11a3d)
+        ;
+
+        
+    
+    
+            var circle_ee900926ee2a180a66c78a0e77175e02 = L.circle(
+                [51.4721678, 19.3460637],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5800.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_f6c8ae12a87c7b6459b2a3a1d64cdec9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39600fdea6a1d21c3120bc337cbb73c5 = $(`<div id="html_39600fdea6a1d21c3120bc337cbb73c5" style="width: 100.0%; height: 100.0%;">Łódzkie has 5.8% unemployment</div>`)[0];
+                popup_f6c8ae12a87c7b6459b2a3a1d64cdec9.setContent(html_39600fdea6a1d21c3120bc337cbb73c5);
+            
+        
+
+        circle_ee900926ee2a180a66c78a0e77175e02.bindPopup(popup_f6c8ae12a87c7b6459b2a3a1d64cdec9)
+        ;
+
+        
+    
+    
+            var circle_c54dc52e326909ad821a0ada3667fd82 = L.circle(
+                [50.7504894, 20.7829122],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7300.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_e92e14287b7e234b2eac455a750f3fca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89c8c4efb5aca60c440651e6c25c8162 = $(`<div id="html_89c8c4efb5aca60c440651e6c25c8162" style="width: 100.0%; height: 100.0%;">Świętokrzyskie has 7.3% unemployment</div>`)[0];
+                popup_e92e14287b7e234b2eac455a750f3fca.setContent(html_89c8c4efb5aca60c440651e6c25c8162);
+            
+        
+
+        circle_c54dc52e326909ad821a0ada3667fd82.bindPopup(popup_e92e14287b7e234b2eac455a750f3fca)
+        ;
+
+        
+    
+    
+            var circle_a13aaab379e9491740efa3a12baa9fab = L.circle(
+                [51.0012996, 22.7748497],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7100.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_61511051dff6dff926b2489bf8ff2b94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c6a09fb64e43b6a66533600f5f1ffa0 = $(`<div id="html_5c6a09fb64e43b6a66533600f5f1ffa0" style="width: 100.0%; height: 100.0%;">Lubelskie has 7.1% unemployment</div>`)[0];
+                popup_61511051dff6dff926b2489bf8ff2b94.setContent(html_5c6a09fb64e43b6a66533600f5f1ffa0);
+            
+        
+
+        circle_a13aaab379e9491740efa3a12baa9fab.bindPopup(popup_61511051dff6dff926b2489bf8ff2b94)
+        ;
+
+        
+    
+    
+            var circle_beaa470c6ea9438d4f56d0a0016c1655 = L.circle(
+                [49.9927121, 22.177107],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8100.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_33dae8237bfe875762a1b9a45ee206c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a99d0d2343dfb04256c8f58ecb4ca21 = $(`<div id="html_5a99d0d2343dfb04256c8f58ecb4ca21" style="width: 100.0%; height: 100.0%;">Podkarpackie has 8.1% unemployment</div>`)[0];
+                popup_33dae8237bfe875762a1b9a45ee206c8.setContent(html_5a99d0d2343dfb04256c8f58ecb4ca21);
+            
+        
+
+        circle_beaa470c6ea9438d4f56d0a0016c1655.bindPopup(popup_33dae8237bfe875762a1b9a45ee206c8)
+        ;
+
+        
+    
+    
+            var circle_3c377740b1b8dd8db11c5213b22f48c8 = L.circle(
+                [53.2668455, 22.8525787],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7000.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_68d49843e5e0674bcca5da6df75accc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a8390dde5ac859e2c0545b7e4622df6 = $(`<div id="html_9a8390dde5ac859e2c0545b7e4622df6" style="width: 100.0%; height: 100.0%;">Podlaskie has 7.0% unemployment</div>`)[0];
+                popup_68d49843e5e0674bcca5da6df75accc9.setContent(html_9a8390dde5ac859e2c0545b7e4622df6);
+            
+        
+
+        circle_3c377740b1b8dd8db11c5213b22f48c8.bindPopup(popup_68d49843e5e0674bcca5da6df75accc9)
+        ;
+
+        
+    
+    
+            var circle_d125dc49801c05921320e52ac257dc17 = L.circle(
+                [52.23744935, 21.013425728967277],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8600.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc4e0f5c5d198a4e3eebe6a5f2a7ec5b);
+        
+    
+        var popup_5352a636f36afcee308d5cfd41e5170e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2916360a50da41cc3ee25764c977d35e = $(`<div id="html_2916360a50da41cc3ee25764c977d35e" style="width: 100.0%; height: 100.0%;">Mazowiecki has 8.6% unemployment</div>`)[0];
+                popup_5352a636f36afcee308d5cfd41e5170e.setContent(html_2916360a50da41cc3ee25764c977d35e);
+            
+        
+
+        circle_d125dc49801c05921320e52ac257dc17.bindPopup(popup_5352a636f36afcee308d5cfd41e5170e)
+        ;
+
+        
+    
+</script>
+</html>

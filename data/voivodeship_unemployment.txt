@@ -1,0 +1,1 @@
+{'Ma³opolskie': 4.6, 'Œl¹skie': 4.4, 'Wielkopolskie': 3.2, 'Zachodniopomorskie': 7.1, 'Lubuskie': 5.0, 'Dolnoœl¹skie': 4.9, 'Opolskie': 6.0, 'Kujawsko-pomorskie': 7.7, 'Warmiñsko-mazurskie': 8.6, 'Pomorskie': 5.3, '£ódzkie': 5.8, 'Œwiêtokrzyskie': 7.3, 'Lubelskie': 7.1, 'Podkarpackie': 8.1, 'Podlaskie': 7.0, 'Mazowiecki': 8.6}
