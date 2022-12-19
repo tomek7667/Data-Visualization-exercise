@@ -33,4 +33,4 @@ Using the data,
 
 # Results
 
-You can view the results in `results/` folder.
+You can view the results in `results/` folder and online on [the github page.](https://tomek7667.github.io/Data-Visualization-exercise/).
